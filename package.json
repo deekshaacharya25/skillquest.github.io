@@ -1,0 +1,19 @@
+{
+  "name": "skill-quest",
+  "version": "1.0.0",
+  "description": "A web application to find skills required for company aptitude tests",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "connect": "^3.7.0",
+    "cookie": "^0.7.1",
+    "cookie-parser": "^1.0.0",
+    "express": "^4.21.0",
+    "method-override": "^3.0.0",
+    "mime": "^4.0.4",
+    "qs": "^6.13.0"
+  }
+}

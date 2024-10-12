@@ -1,0 +1,2110 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#backToSearchButton{
+    display:none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #12324b;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+main {
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    border-radius: 8px;
+    position: sticky;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+#search h2{
+    padding-bottom: 20px;
+}
+#search label{
+    justify-self: start;
+}
+#skills-section {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #335e80;
+}
+
+/* Existing styles */
+
+/* ... (keep your existing CSS) ... */
+
+/* Styles for the forgot password page */
+#forgot-password .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#forgot-password .banner {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+#forgot-password .banner h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#forgot-password .form {
+    padding: 30px 20px;
+}
+
+#forgot-password h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#forgot-password p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+#forgot-password input {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+#forgot-password button {
+    background-color: #3498db;
+    border: none;
+    color: #ffffff;
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#forgot-password button:hover {
+    background-color: #2980b9;
+}
+
+#forgot-password a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#forgot-password a:hover {
+    text-decoration: underline;
+}
+
+#skills-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skill-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.skill-button {
+    padding: 10px 20px;
+    background-color: #12324b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+    background-color: #335e80;
+}
+
+.overall-score-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eligibility-message{
+   color: #335e80;
+}
+.skills-button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills-button:hover {
+    background-color: #335e80;
+}
+
+ul{
+    list-style-type: none;
+}
+h4{
+    color:#12324b;
+}
+#questions-section {
+    background-color: transparent;
+    color: white;
+}
+body.quiz-mode {
+    background: #000;
+}
+
+main.quiz-mode {
+    background: transparent;
+    box-shadow: none;
+}
+body.quiz-mode {
+    background-color: #f4f4f4;
+}
+
+
+.quiz-mode #questions-section {
+    background-color: transparent;
+    color: white;
+}
+
+.quiz-mode #questions-section p,
+.quiz-mode #questions-section label,
+.quiz-mode #questions-section input {
+    color: white;
+}
+body.quiz-completed {
+    background-color: black;
+}
+
+body.quiz-completed main {
+    background-color: black;
+}
+#questions-section input[type="radio"] {
+    margin-right: 10px;
+}
+
+#questions-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width:50vh;
+    color: white;
+}
+#questions-section,
+#questions-section p,
+#questions-section label,
+#questions-section input,
+#questions-section button {
+    color: white;
+}
+#questions-section{
+position: relative;
+}
+#questions-section input[type="radio"] {
+    margin-right: 5px;
+    
+}
+
+#questions-section label {
+    display: block;
+    margin-bottom: 2.5rem;
+    align-self: start;
+}
+
+/* #questionsContainer {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh; 
+    background-color: #000;
+} */
+#questionsContainer {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    z-index: 1000;
+}
+
+#timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:20px;
+    position: absolute;
+}
+
+#questions-section button {
+    background-color: #12324b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 20px;
+}
+
+#questions-section button:hover {
+    background-color: #1f5078;
+}
+
+
+.overall-score-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overall-score-container h3,
+.overall-score-container h4 {
+    color: #12324b;
+}
+
+.overall-score-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.overall-score-container li {
+    margin: 5px 0;
+}
+.question p{
+    margin-bottom: 1rem;
+}
+/* Media Queries for Responsiveness */
+/*
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+*/
+::-webkit-scrollbar{
+    display: none;
+}
+
+::selection{
+    background: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 460px;
+    height: 100vh;
+    overflow: scroll;
+    background: url("public\images\backgroundimage.jpg");
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    width: 100%;
+    min-height:420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 630px;
+    height: 76vh;
+}
+
+.banner {
+    max-height:420px;
+    height: 100%;
+    width: 350px;
+    background: #084257;
+    background:-webkit-linear-gradient(to right,#142b54, #1f396d);
+    background:linear-gradient(to right, #142b54, #1f396d);
+    margin: auto;
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.5);
+    border-radius: 10px 0 0 10px;
+    transition: .4s;
+}
+
+.banner * {
+    margin: 40px;
+    color: #ccc;
+    cursor: default;
+}
+
+.form {
+    max-height:420px;
+    height: 100%;
+    width: 280px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+img {
+    pointer-events: none;
+    margin: 45px 0 20px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form small:first-of-type{
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: small;
+    color: #1756a2;
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    width: 212px;
+    border: 2px solid #ccc;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: 0;
+    transition: 0.5s;
+    border: 2px solid #646464;
+}
+
+/* ::-ms-reveal {
+    filter: invert(100%);
+} */
+
+button {
+    min-width: 200px;
+    min-height: 30px;
+    border: 2px solid #142b54;
+    background: #142b54;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 0 30px 0;
+    position: sticky;
+}
+button:hover{
+    background-color: #3b5694;
+    border: 2px solid #3b5694;
+}
+
+button:active {
+    transform: scale(1.05);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#forgot{
+    opacity: .6;
+}
+
+#forgot:hover{
+    opacity: 1;
+}
+
+
+
+
+/* @media (max-width: 720px) {
+    .banner {
+        position: absolute;
+        transform: translatex(10%);
+        opacity: 0;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form {
+        border-radius: 10px;
+    }
+} */
+
+
+.skills-button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills-button:hover {
+    background-color: #335e80;
+}
+
+/* Circular Progress Bar */
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #8dd5c3;
+    text-align: center;
+}
+
+.circle-container {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8dd5c3;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    width: 100%;
+    height: 100%;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#option-0, #option-1, #option-2, #option-3 {
+    width: 15px;
+    height: 15px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto;
+    position: absolute;
+}
+.button-container button {
+    width: 40%;
+    height: 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 50px;
+}
+
+.button-container .next-button, .button-container .submit-button {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #12324b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container .next-button:hover, .button-container .submit-button:hover {
+    background-color: #335e80;
+}
+
+/* Add media queries to target laptop devices */
+@media (min-width: 1024px) {
+    /* Adjust the styles for laptop devices */
+    .button-container {
+        width: 30%;
+    }
+    .button-container button {
+        width: 45%;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+/* For mobile devices with a screen width of 480px or less */
+@media (max-width: 480px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+/* For mobile devices with a screen width of 768px or less */
+@media (max-width: 768px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+}
+
+/* For tablets with a screen width of 1024px or less */
+@media (max-width: 1024px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        height: 76vh;
+    }
+
+    .banner {
+        display: block;
+        max-height: 420px;
+        height: 100%;
+        width: 350px;
+        background: linear-gradient(to right, #142b54, #1f396d);
+        border-radius: 10px 0 0 10px;
+    }
+
+    .banner * {
+        margin: 40px;
+        color: #ccc;
+    }
+
+    .form {
+        border-radius: 0 10px 10px 0;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    #search h2 {
+        font-size: 1.5rem;
+    }
+
+    .circle-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle-text {
+        font-size: 20px;
+    }
+} */
+
+@media (min-width: 1024px) {
+    /* Adjust the styles for laptop devices in quiz mode */
+    body.quiz-mode h1 {
+        font-size: 36px;
+    }
+    body.quiz-mode button {
+        width: 50%;
+        height: 60px;
+    }
+}
+/* Add this to the existing CSS */
+
+/* Media Queries for Responsiveness */
+
+/* For mobile devices with a screen width of 480px or less */
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+    .button-container{
+        flex-direction: column;
+    }
+    #search h2 {
+        font-size: 1rem;
+    }
+    #submitButton, #nextButton{
+       padding-bottom: 10px;
+    }
+    #questions-section {
+        font-size: 0.5rem;
+    }
+
+    #questions-section label {
+        font-size: 0.5rem;
+    }
+
+    #questions-section input[type="radio"] {
+        margin-right: 0px;
+    }
+
+    #questions-section button {
+        padding: 5px 10px;
+        font-size: 0.3rem;
+    }
+
+    .circle-container {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto;
+        
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 14px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    .question{
+        padding-top: 100px;
+    }
+    #questionsContainer {
+        position: fixed;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: #000;
+        z-index: 1000;
+        margin-top:30px;
+    }
+
+    #timer {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top:20px;
+        position: absolute;
+    }
+    .overall-score-container {
+        margin-bottom: 10px;
+        margin-top:80px;
+        padding-top: 80px;
+ 
+   }
+   #option-0, #option-1, #option-2, #option-3 {
+    width: 5px;
+    height: 5px;
+}
+#questions-section label {
+    font-size: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
+}
+
+/* For mobile devices with a screen width of 768px or less */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    #search h2 {
+        font-size: 1rem;
+    }
+
+    #questions-section {
+        font-size: 0.8rem;
+    }
+
+    #questions-section label {
+        font-size: 0.8rem;
+    }
+
+    #questions-section input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    #questions-section button {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+   
+     #questionsContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #000;
+        z-index: 1000;
+    }
+    
+    .circle-container {
+        width: 120px;
+        height: 120px;
+        margin: 15px auto;
+      
+    }
+    
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .skill-buttons {
+        flex-direction: column;
+    }
+
+    .skill-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .overall-score-container {
+        margin-bottom: 10px;
+        margin-top:100px;
+        padding-top:80px;
+
+    }
+
+    .score-container {
+        height: 100vh;
+    }
+    #option-0, #option-1, #option-2, #option-3 {
+        width: 10px;
+        height: 10px;
+    }
+    #timer {
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+    #questions-section label {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem; 
+    }
+}
+
+/* For tablets with a screen width of 1024px or less */
+@media (max-width: 1024px) {
+    main {
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    #search h2 {
+        font-size: 1.2 rem;
+    }
+
+    #questions-section {
+        font-size: 1rem;
+    }
+
+    #questions-section label {
+        font-size: 1rem;
+    }
+    
+    #questions-section input[type="radio"] {
+        margin-right: 15px;
+    }
+
+    #questions-section button {
+        font-size: 1rem;
+    }
+    #questionsContainer {
+        position: sticky;
+        top: 0;
+        padding: 20px;
+        background-color: #000;
+        z-index: 1000;
+    }
+    .circle-container {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+      
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #questions-section input[type="radio"] {
+        margin-right: 15px;
+    }
+    #option-0, #option-1, #option-2, #option-3 {
+        width: 15px;
+        height: 15px;
+    }
+    #timer {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    #questions-section label {
+        font-size: 1rem;
+        margin-bottom: 1rem; 
+    }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#backToSearchButton{
+    display:none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #12324b;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+main {
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    border-radius: 8px;
+    position: sticky;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+#search h2{
+    padding-bottom: 20px;
+}
+#search label{
+    justify-self: start;
+}
+#skills-section {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #335e80;
+}
+
+/* Existing styles */
+
+/* ... (keep your existing CSS) ... */
+
+/* Styles for the forgot password page */
+#forgot-password .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#forgot-password .banner {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+#forgot-password .banner h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#forgot-password .form {
+    padding: 30px 20px;
+}
+
+#forgot-password h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#forgot-password p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+#forgot-password input {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+#forgot-password button {
+    background-color: #3498db;
+    border: none;
+    color: #ffffff;
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#forgot-password button:hover {
+    background-color: #2980b9;
+}
+
+#forgot-password a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#forgot-password a:hover {
+    text-decoration: underline;
+}
+
+#skills-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skill-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.skill-button {
+    padding: 10px 20px;
+    background-color: #12324b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+    background-color: #335e80;
+}
+
+.overall-score-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eligibility-message{
+   color: #335e80;
+}
+.skills-button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills-button:hover {
+    background-color: #335e80;
+}
+
+ul{
+    list-style-type: none;
+}
+h4{
+    color:#12324b;
+}
+#questions-section {
+    background-color: transparent;
+    color: white;
+}
+body.quiz-mode {
+    background: #000;
+}
+
+main.quiz-mode {
+    background: transparent;
+    box-shadow: none;
+}
+body.quiz-mode {
+    background-color: #f4f4f4;
+}
+
+
+.quiz-mode #questions-section {
+    background-color: transparent;
+    color: white;
+}
+
+.quiz-mode #questions-section p,
+.quiz-mode #questions-section label,
+.quiz-mode #questions-section input {
+    color: white;
+}
+body.quiz-completed {
+    background-color: black;
+}
+
+body.quiz-completed main {
+    background-color: black;
+}
+#questions-section input[type="radio"] {
+    margin-right: 10px;
+}
+
+#questions-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width:50vh;
+    color: white;
+}
+#questions-section,
+#questions-section p,
+#questions-section label,
+#questions-section input,
+#questions-section button {
+    color: white;
+}
+#questions-section{
+position: relative;
+}
+#questions-section input[type="radio"] {
+    margin-right: 5px;
+    
+}
+
+#questions-section label {
+    display: block;
+    margin-bottom: 2.5rem;
+    align-self: start;
+}
+
+/* #questionsContainer {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh; 
+    background-color: #000;
+} */
+#questionsContainer {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    z-index: 1000;
+}
+
+#timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:20px;
+    position: absolute;
+}
+
+#questions-section button {
+    background-color: #12324b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 20px;
+}
+
+#questions-section button:hover {
+    background-color: #1f5078;
+}
+
+
+.overall-score-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overall-score-container h3,
+.overall-score-container h4 {
+    color: #12324b;
+}
+
+.overall-score-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.overall-score-container li {
+    margin: 5px 0;
+}
+.question p{
+    margin-bottom: 1rem;
+}
+/* Media Queries for Responsiveness */
+/*
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+*/
+::-webkit-scrollbar{
+    display: none;
+}
+
+::selection{
+    background: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 460px;
+    height: 100vh;
+    overflow: scroll;
+    background: url("public\images\backgroundimage.jpg");
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    width: 100%;
+    min-height:420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 630px;
+    height: 76vh;
+}
+
+.banner {
+    max-height:420px;
+    height: 100%;
+    width: 350px;
+    background: #084257;
+    background:-webkit-linear-gradient(to right,#142b54, #1f396d);
+    background:linear-gradient(to right, #142b54, #1f396d);
+    margin: auto;
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.5);
+    border-radius: 10px 0 0 10px;
+    transition: .4s;
+}
+
+.banner * {
+    margin: 40px;
+    color: #ccc;
+    cursor: default;
+}
+
+.form {
+    max-height:420px;
+    height: 100%;
+    width: 280px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+img {
+    pointer-events: none;
+    margin: 45px 0 20px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form small:first-of-type{
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: small;
+    color: #1756a2;
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    width: 212px;
+    border: 2px solid #ccc;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: 0;
+    transition: 0.5s;
+    border: 2px solid #646464;
+}
+
+/* ::-ms-reveal {
+    filter: invert(100%);
+} */
+
+button {
+    min-width: 200px;
+    min-height: 30px;
+    border: 2px solid #142b54;
+    background: #142b54;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 0 30px 0;
+    position: sticky;
+}
+button:hover{
+    background-color: #3b5694;
+    border: 2px solid #3b5694;
+}
+
+button:active {
+    transform: scale(1.05);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#forgot{
+    opacity: .6;
+}
+
+#forgot:hover{
+    opacity: 1;
+}
+
+
+
+
+/* @media (max-width: 720px) {
+    .banner {
+        position: absolute;
+        transform: translatex(10%);
+        opacity: 0;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form {
+        border-radius: 10px;
+    }
+} */
+
+
+.skills-button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #12324b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills-button:hover {
+    background-color: #335e80;
+}
+
+/* Circular Progress Bar */
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #8dd5c3;
+    text-align: center;
+}
+
+.circle-container {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8dd5c3;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    width: 100%;
+    height: 100%;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#option-0, #option-1, #option-2, #option-3 {
+    width: 15px;
+    height: 15px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto;
+    position: absolute;
+}
+.button-container button {
+    width: 40%;
+    height: 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 50px;
+}
+
+.button-container .next-button, .button-container .submit-button {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #12324b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container .next-button:hover, .button-container .submit-button:hover {
+    background-color: #335e80;
+}
+
+/* Add media queries to target laptop devices */
+@media (min-width: 1024px) {
+    /* Adjust the styles for laptop devices */
+    .button-container {
+        width: 30%;
+    }
+    .button-container button {
+        width: 45%;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+/* For mobile devices with a screen width of 480px or less */
+@media (max-width: 480px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+/* For mobile devices with a screen width of 768px or less */
+@media (max-width: 768px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+}
+
+/* For tablets with a screen width of 1024px or less */
+@media (max-width: 1024px) {
+    .button-container #nextButton, .button-container #submitButton {
+        width: 100%;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        height: 76vh;
+    }
+
+    .banner {
+        display: block;
+        max-height: 420px;
+        height: 100%;
+        width: 350px;
+        background: linear-gradient(to right, #142b54, #1f396d);
+        border-radius: 10px 0 0 10px;
+    }
+
+    .banner * {
+        margin: 40px;
+        color: #ccc;
+    }
+
+    .form {
+        border-radius: 0 10px 10px 0;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    #search h2 {
+        font-size: 1.5rem;
+    }
+
+    .circle-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle-text {
+        font-size: 20px;
+    }
+} */
+
+@media (min-width: 1024px) {
+    /* Adjust the styles for laptop devices in quiz mode */
+    body.quiz-mode h1 {
+        font-size: 36px;
+    }
+    body.quiz-mode button {
+        width: 50%;
+        height: 60px;
+    }
+}
+/* Add this to the existing CSS */
+
+/* Media Queries for Responsiveness */
+
+/* For mobile devices with a screen width of 480px or less */
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+    .button-container{
+        flex-direction: column;
+    }
+    #search h2 {
+        font-size: 1rem;
+    }
+    #submitButton, #nextButton{
+       padding-bottom: 10px;
+    }
+    #questions-section {
+        font-size: 0.5rem;
+    }
+
+    #questions-section label {
+        font-size: 0.5rem;
+    }
+
+    #questions-section input[type="radio"] {
+        margin-right: 0px;
+    }
+
+    #questions-section button {
+        padding: 5px 10px;
+        font-size: 0.3rem;
+    }
+
+    .circle-container {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto;
+        
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 14px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    .question{
+        padding-top: 100px;
+    }
+    #questionsContainer {
+        position: fixed;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: #000;
+        z-index: 1000;
+        margin-top:30px;
+    }
+
+    #timer {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top:20px;
+        position: absolute;
+    }
+    .overall-score-container {
+        margin-bottom: 10px;
+        margin-top:80px;
+        padding-top: 80px;
+ 
+   }
+   #option-0, #option-1, #option-2, #option-3 {
+    width: 5px;
+    height: 5px;
+}
+#questions-section label {
+    font-size: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
+}
+
+/* For mobile devices with a screen width of 768px or less */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    #search h2 {
+        font-size: 1rem;
+    }
+
+    #questions-section {
+        font-size: 0.8rem;
+    }
+
+    #questions-section label {
+        font-size: 0.8rem;
+    }
+
+    #questions-section input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    #questions-section button {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+   
+     #questionsContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #000;
+        z-index: 1000;
+    }
+    
+    .circle-container {
+        width: 120px;
+        height: 120px;
+        margin: 15px auto;
+      
+    }
+    
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    input[type="text"] {
+        width: calc(100% - 2rem);
+    }
+
+    button, .skills-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .skill-buttons {
+        flex-direction: column;
+    }
+
+    .skill-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .overall-score-container {
+        margin-bottom: 10px;
+        margin-top:100px;
+        padding-top:80px;
+
+    }
+
+    .score-container {
+        height: 100vh;
+    }
+    #option-0, #option-1, #option-2, #option-3 {
+        width: 10px;
+        height: 10px;
+    }
+    #timer {
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+    #questions-section label {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem; 
+    }
+}
+
+/* For tablets with a screen width of 1024px or less */
+@media (max-width: 1024px) {
+    main {
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    #search h2 {
+        font-size: 1.2 rem;
+    }
+
+    #questions-section {
+        font-size: 1rem;
+    }
+
+    #questions-section label {
+        font-size: 1rem;
+    }
+    
+    #questions-section input[type="radio"] {
+        margin-right: 15px;
+    }
+
+    #questions-section button {
+        font-size: 1rem;
+    }
+    #questionsContainer {
+        position: sticky;
+        top: 0;
+        padding: 20px;
+        background-color: #000;
+        z-index: 1000;
+    }
+    .circle-container {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+      
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #8dd5c3;
+        position: relative;
+        overflow: hidden;
+        margin-top:30px;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #questions-section input[type="radio"] {
+        margin-right: 15px;
+    }
+    #option-0, #option-1, #option-2, #option-3 {
+        width: 15px;
+        height: 15px;
+    }
+    #timer {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    #questions-section label {
+        font-size: 1rem;
+        margin-bottom: 1rem; 
+    }
+>>>>>>> aa735a8b135e0e925039040867749c60da5e8298
+}

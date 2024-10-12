@@ -1,0 +1,104 @@
+[
+  {
+<<<<<<< HEAD
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Netflix",
+    "skill": "Streaming Technologies",
+    "score": 20
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Netflix",
+    "skill": "overallScore",
+=======
+    "email": "dif@gmail.com",
+    "company": "Accenture",
+    "skill": "Management Consulting",
+>>>>>>> aa735a8b135e0e925039040867749c60da5e8298
+    "score": 16
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+<<<<<<< HEAD
+    "company": "Netflix",
+    "skill": "Recommendation Algorithms",
+    "score": 8
+=======
+    "company": "TCS",
+    "skill": "DevOps",
+    "score": 12
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "TCS",
+    "skill": "Business Intelligence",
+    "score": 12
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Oracle",
+    "skill": "DBMS",
+    "score": 28.000000000000004
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Wipro",
+    "skill": "Java",
+    "score": 12
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Oracle",
+    "skill": "PL/SQL",
+    "score": 24
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Oracle",
+    "skill": "overallScore",
+    "score": 26
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Apple",
+    "skill": "iOS Development (Swift)",
+    "score": 25
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Apple",
+    "skill": "overallScore",
+    "score": 25
+  },
+  {
+    "email": "dif@gmail.com",
+    "company": "Wipro",
+    "skill": "Java",
+    "score": 8
+  },
+  {
+    "email": "dif@gmail.com",
+    "company": "Wipro",
+    "skill": "overallScore",
+    "score": 10.666666666666666
+  },
+  {
+    "email": "dif@gmail.com",
+    "company": "Wipro",
+    "skill": ".NET",
+    "score": 16
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Wipro",
+    "skill": ".NET",
+    "score": 16
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Wipro",
+    "skill": "overallScore",
+    "score": 14
+>>>>>>> aa735a8b135e0e925039040867749c60da5e8298
+  }
+]

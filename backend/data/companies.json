@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Wipro",
+        "skills": ["Java", ".NET", "Cloud Services","Data Analytics","IT Infrastructure Management"]
+    },
+    {
+        "name": "TCS",
+        "skills": ["Enterprise Software Development","Business Intelligence","DevOps","Cybersecurity", "Digital Transformation"]
+    },
+    {
+        "name": "Infosys",
+        "skills": ["Digital Services", "Big Data","IoT","Blockchain","Agile & DevOps"]
+    },
+    {
+        "name": "Oracle",
+        "skills": ["DBMS", "PL/SQL","Java","Cloud Infrastructure","ERP Systems"]
+    },
+    {
+        "name": "Accenture",
+        "skills": ["Management Consulting", "Cloud Migration","AI & Automation","SAP/Oracle Implementations","Industry-specific Solutions"]
+    },
+    {
+        "name": "MuSigma",
+        "skills": ["Data Science", "Statistical Analysis","Machine Learning","Business Analytics","Problem Solving"]
+    },
+    {
+        "name": "Mindtree",
+        "skills": ["Digital Transformation", "Cloud Services","Automation","API Management","Agile Development"]
+    },
+    {
+        "name": "Netflix",
+        "skills": ["Streaming Technologies", "Recommendation Algorithms","Microservices Architecture","A/B Testing","Full-stack Development"]
+    }
+    ,{
+        "name": "IBM",
+        "skills": ["Cloud Computing", "Quantum Computing","Blockchain","Enterprise Software Development","AI and Cognitive Systems"]
+    },
+    {
+        "name": "Tesla",
+        "skills": ["Embedded Systems", "Artificial Intelligence","Control Systems","Electrical Engineering","Computer Vision"]
+    },
+    {
+        "name": "Facebook (Meta)",
+        "skills": ["React", "PHP","Scalable Systems","Data Analytics","Network Infrastructure"]
+    },
+    {
+        "name": "Apple",
+        "skills": ["iOS Development (Swift)", "UI Design","Objective-C","Hardware-software Integration","Security Protocols"]
+    },
+    {
+        "name": "Microsoft",
+        "skills": [".NET Framework", "C#","Azure Cloud Services","Software Architecture","Agile Methodologies"]
+    },
+    {
+        "name": "Amazon",
+        "skills": ["System Design", "Cloud Computing (AWS)","Java","Databases","Object-oriented Programming"]
+    },
+    {
+        "name": "Google",
+        "skills": ["Algorithms", "Data Structures","Machine Learning","Distributed Systems","Python/Java/C++"]
+    }
+]
+

@@ -1,0 +1,107 @@
+<<<<<<< HEAD
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILL QUEST - Skill Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skill Quest</h1>
+    </header>
+
+    <main>
+        <section id="search">
+            <h2>Find Skills for a Company You Wish!!</h2>
+
+            <label for="companyDropdown">Select Company Name:</label>
+            <select id="companyDropdown">
+                <option value="" disabled selected>Select a company</option>
+            </select>
+
+            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
+
+            <button type="button" onclick="findSkills()">Find Skills</button>
+        </section>
+
+        <section id="skills-section">
+            <div id="skillsContainer"></div>
+            <div id="overall-score-container"></div>
+        </section>
+
+        <section id="user-scores" style="display: none;">
+            <h2>Your Scores</h2>
+            <div id="user-scores">
+                <!-- This will be populated dynamically by JavaScript -->
+            </div>
+        </section>
+        
+        <section id="questions-section" style="display: none;"> <!-- Set to hidden initially -->
+            <div id="questionsContainer"></div>
+        <div class="button-container">
+            <button id="nextButton" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <button id="submitButton" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+        </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILL QUEST - Skill Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skill Quest</h1>
+    </header>
+
+    <main>
+        <section id="search">
+            <h2>Find Skills for a Company You Wish!!</h2>
+
+            <label for="companyDropdown">Select Company Name:</label>
+            <select id="companyDropdown">
+                <option value="" disabled selected>Select a company</option>
+            </select>
+
+            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
+
+            <button type="button" onclick="findSkills()">Find Skills</button>
+        </section>
+
+        <section id="skills-section">
+            <div id="skillsContainer"></div>
+            <div id="overall-score-container"></div>
+        </section>
+
+        <section id="user-scores" style="display: none;">
+            <h2>Your Scores</h2>
+            <div id="user-scores">
+                <!-- This will be populated dynamically by JavaScript -->
+            </div>
+        </section>
+        
+        <section id="questions-section" style="display: none;"> <!-- Set to hidden initially -->
+            <div id="questionsContainer"></div>
+        <div class="button-container">
+            <button id="nextButton" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <button id="submitButton" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+        </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> aa735a8b135e0e925039040867749c60da5e8298

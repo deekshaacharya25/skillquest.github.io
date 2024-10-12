@@ -1,0 +1,56 @@
+[
+<<<<<<< HEAD
+    {
+      "username": "deexa_07",
+      "email": "deekshapacharya25@gmail.com",
+      "password": "dee"
+    },
+    {
+      "username": "different",
+      "email": "dif@gmail.com",
+      "password": "dif"
+    },
+    {
+      "username": "dakshith",
+      "email": "dakshith@gmail.com",
+      "password": "123"
+    },
+    {
+      "username": "mamatha04",
+      "email": "mamatha04@gmail.com",
+      "password": "mem"
+    },
+    {
+      "username": "different",
+      "email": "different@gmail.com",
+      "password": "def"
+    }
+  ]
+=======
+  {
+    "username": "deexa_07",
+    "email": "deekshapacharya25@gmail.com",
+    "password": "dee"
+  },
+  {
+    "username": "different",
+    "email": "dif@gmail.com",
+    "password": "dif"
+  },
+  {
+    "username": "dakshith",
+    "email": "dakshith@gmail.com",
+    "password": "123"
+  },
+  {
+    "username": "mamatha04",
+    "email": "mamatha04@gmail.com",
+    "password": "mem"
+  },
+  {
+    "username": "different",
+    "email": "different@gmail.com",
+    "password": "def"
+  }
+]
+>>>>>>> aa735a8b135e0e925039040867749c60da5e8298
